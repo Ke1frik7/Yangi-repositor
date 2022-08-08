@@ -40,12 +40,12 @@ window.addEventListener("load", () => {
     let input = document.createElement("input")
     input.placeholder = 'Ismingizni kiriting'
     input.id = 'messi'
-    let btn = document.createElement("button")
-    btn.appendChild(document.createTextNode("Button"))
+    let button = document.createElement("button")
+    button.appendChild(document.createTextNode("Button"))
 
-    btn.id = 'bos'
+    button.id = 'bos'
     root.appendChild(input)
-    root.appendChild(btn)
+    root.appendChild(button)
    
     document.getElementById('bos').addEventListener("click", (e) => {
         e.preventDefault()
